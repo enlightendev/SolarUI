@@ -265,6 +265,18 @@ Ext.define('SolarUI.view.case.CaseView', {
                     listeners: {
                         click: 'add'
                     }
+                },{
+                    xtype: 'button',
+                    text: 'Login',
+                    listeners: {
+                        click: 'login'
+                    }
+                },{
+                    xtype: 'button',
+                    text: 'Logout',
+                    listeners: {
+                        click: 'logout'
+                    }
                 }
             ]
         }

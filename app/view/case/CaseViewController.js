@@ -2,10 +2,11 @@ Ext.define('SolarUI.view.case.CaseViewController', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.casesCtrl',
 
-    /*
-        show view uses references to aquire a reference to a specific view.
-
-    */
+    /**
+     * convenience method that encapsulates the logic for displaying a specific view from a container using
+     * the cardlayout layout type.
+     * @param view
+     */
     showView: function(view) {
         var references = this.getReferences();
 
@@ -182,6 +183,30 @@ Ext.define('SolarUI.view.case.CaseViewController', {
 
         // Show form
         this.showView('caseFormRef');
+    },
+
+    login: function(e){
+        // Initialize Auth0Lock with your `clientID` and `domain`
+        var lock = new Auth0Lock('', 'philafin.auth0.com');
+
+        //e.preventDefault();
+        lock.show(function onLogin(err, profile, id_token) {
+
+            if (err) {
+                // There was an error logging the user in
+                return alert(err.message);
+            }
+
+            console.log('logged in');
+        });
+
+    },
+
+    logout: function(e){
+        // Initialize Auth0Lock with your `clientID` and `domain`
+        var lock = new Auth0Lock('', 'philafin.auth0.com');
+        lock.logout({ ref: window.location.href });
+
     },
 
     onStoreLoad: function(store, records, successful, eOpts) {
