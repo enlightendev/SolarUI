@@ -1,0 +1,81 @@
+{
+    data: [
+        {
+            case: 'VG05',
+            last_name: 'Allen',
+            first_name: 'David',
+            ssn: '555-55-5555',
+            sex: 'M',
+            state_of_residence: 'VA',
+            state_of_employment: 'VA',
+            annual_premium: 3900,
+            face_amount: 71399
+        },
+        {
+            case: 'VG05',
+            last_name: 'Georger',
+            first_name: 'Joe',
+            ssn: '5235-23-2323',
+            sex: 'M',
+            state_of_residence: 'WA',
+            state_of_employment: 'WA',
+            annual_premium: 5684,
+            face_amount: 71399
+        },
+        {
+            case: 'VG09',
+            last_name: 'Mickael',
+            first_name: 'Henry',
+            ssn: '2323-23-2323',
+            sex: 'M',
+            state_of_residence: 'PA',
+            state_of_employment: 'PA',
+            annual_premium: 5684,
+            face_amount: 71399
+        },
+        {
+            case: 'VG19',
+            last_name: 'Wilkins',
+            first_name: 'Dom',
+            ssn: '4545-23-2323',
+            sex: 'F',
+            state_of_residence: 'PA',
+            state_of_employment: 'PA',
+            annual_premium: 5684,
+            face_amount: 2332
+        },
+        {
+            case: 'VG19',
+            last_name: 'Joseph',
+            first_name: 'Jack',
+            ssn: '4545-33-2321',
+            sex: 'M',
+            state_of_residence: 'NJ',
+            state_of_employment: 'NJ',
+            annual_premium: 5684,
+            face_amount: 2332
+        },
+        {
+            case: 'VG19',
+            last_name: 'Jones',
+            first_name: 'Sherryle',
+            ssn: '2323-33-2321',
+            sex: 'F',
+            state_of_residence: 'NJ',
+            state_of_employment: 'NJ',
+            annual_premium: 5684,
+            face_amount: 2332
+        },
+        {
+            case: 'VG27',
+            last_name: 'Gooden',
+            first_name: 'Dwight',
+            ssn: '1234-33-2321',
+            sex: 'M',
+            state_of_residence: 'NY',
+            state_of_employment: 'NY',
+            annual_premium: 5684,
+            face_amount: 2332
+        }
+    ]
+}

@@ -8,11 +8,22 @@ Ext.define('SolarUI.Application', {
     
     name: 'SolarUI',
 
+    models: [
+        'CaseModel',
+        'CertModel',
+        'UserModel'
+    ],
     stores: [
-        // TODO: add global / shared stores here
+        'CertDataStore',
+        'UserDataStore'
+    ],
+    views: [
+        'case.CaseView',
+        'SolarUIViewPort',
+        'detail.EntityDetail'
     ],
     
     launch: function () {
-        // TODO - Launch the application
+        Ext.create('SolarUI.view.SolarUIViewPort');
     }
 });

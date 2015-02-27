@@ -6,9 +6,7 @@
 Ext.application({
     name: 'SolarUI',
 
-    extend: 'SolarUI.Application',
-    
-    autoCreateViewport: 'SolarUI.view.main.Main'
+    extend: 'SolarUI.Application'
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to SolarUI.Application. If you need to
