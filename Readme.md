@@ -50,3 +50,8 @@ is loaded.
 
 This folder contains the styling for the application's views. See SolarUI/sass/Readme.md
 for details.
+
+
+## Dev Notes
+- built using sencha command.
+
